@@ -1,0 +1,19 @@
+
+body {
+	background-color: #000044;
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    margin: 0px;
+	overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+	color:#0078ff;
+}
+
+h1.title{
+	width:30%;
+}

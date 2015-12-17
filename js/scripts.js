@@ -1,30 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en">
-	<head>
-		<title>three.js - particles - random</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-		<style type="text/css">
-			body {
-				background-color: #000044;
-				background: url(img/bg.jpg) repeat-x;
-				margin: 0px;
-				overflow: hidden;
-			}
-
-			a {
-				color:#0078ff;
-			}
-		</style>
-	</head>
-	<body onload="init()">
-
-	<script type="text/javascript" src="js/ThreeCanvas.js"></script>
-	<script type="text/javascript" src="js/Snow.js"></script>
-	
-		<script>
-
-			var SCREEN_WIDTH = window.innerWidth;
+var SCREEN_WIDTH = window.innerWidth;
 			var SCREEN_HEIGHT = window.innerHeight;
 
 			var container;
@@ -141,8 +115,3 @@
 
 				
 			}
-
-		</script>
-		<div>mikas</div>
-	</body>
-</html>
