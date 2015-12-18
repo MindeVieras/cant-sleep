@@ -1,6 +1,5 @@
 
 body {
-	background-color: #000044;
     background: url(../img/bg.jpg) no-repeat center center fixed;
     margin: 0px;
 	overflow: hidden;
@@ -16,4 +15,12 @@ a {
 
 h1.title{
 	width:30%;
+}
+
+.linkscont{
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	border: 1px solid black;
+	margin-left: 30%
 }
