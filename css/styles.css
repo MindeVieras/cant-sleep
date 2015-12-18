@@ -1,4 +1,3 @@
-
 body {
     background: url(../img/bg.jpg) no-repeat center center fixed;
     margin: 0px;
@@ -9,18 +8,11 @@ body {
     background-size: cover;
 }
 
-a {
-	color:#0078ff;
+.container {
+    position:fixed;
 }
-
-h1.title{
-	width:30%;
-}
-
-.linkscont{
-	position: absolute;
-	width: 400px;
-	height: 500px;
-	border: 1px solid black;
-	margin-left: 30%
+.container a {
+    position:absolute;
+    height: auto;
+    text-align: center;
 }

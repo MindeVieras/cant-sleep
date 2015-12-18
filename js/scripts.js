@@ -1,24 +1,7 @@
 // random links toggling
-(function makeDiv(){
-	var divsize = ((Math.random()*100) + 50).toFixed();
-	var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
-	$newdiv = $('<div/>').css({
-		'width':divsize+'px',
-		'height':divsize+'px',
-		'background-color': color
-	});
-	var posx = (Math.random() * ($('.linkscont').width() - divsize)).toFixed();
-	var posy = (Math.random() * ($('.linkscont').height() - divsize)).toFixed();
-	$newdiv.css({
-		'position':'absolute',
-		'left':posx+'px',
-		'top':posy+'px',
-		'display':'none'
-	}).appendTo( '.container' ).fadeIn(200).delay(3000).fadeOut(300, function(){
-		$(this).remove();
-		makeDiv(); 
-	}); 
-})();
+$(document).ready(function(){
+    $('.container').imageCollage();
+});
 
 // snowing effect
 var SCREEN_WIDTH = window.innerWidth;
